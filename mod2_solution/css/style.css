@@ -14,7 +14,7 @@
     background-color: #EDBC17;
     border: 1px solid black ;
     padding: 27PX 15px 0px 15px;
-    margin: 10px;
+    margin: 15px;
     position: relative;
   }
   span{
@@ -37,6 +37,7 @@
   }
   .row {
     width: 100%;
+
   }
 /********** Desktop version only **********/
 @media (min-width: 992px) {
