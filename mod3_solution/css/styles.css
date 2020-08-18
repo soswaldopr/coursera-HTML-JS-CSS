@@ -1,4 +1,8 @@
-
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
 body{
 	font-family: 'Baloo Tamma 2', cursive;
 }
@@ -13,36 +17,53 @@ body{
 	padding: 10px;
 }
 
-.pull-left h1{/** Name of the restaurant **/
+.navbar-brand h1{/** Name of the restaurant **/
 	margin: 20px 0px 20px 0px ;
 	color: black;	
+  	font-size: 1.5em;
+  	font-weight: bold;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	
 }
-.pull-left  a:hover{
+.navbar-brand a:hover{
 	text-decoration: none;
 }
-
 #nav-list {
-	margin-top: 10px;
-	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav-list li{
+	padding: 0px;
+}
+#list-el1 {
+	border-bottom: solid white;
+}
+#list-el2 {
+	border-bottom: solid white;
 }
 #nav-list a {
-	color: #ff6326;
+	color: white;
 	text-align: center;
+	background-color: black;
 }
 #nav-list a:hover {
-	background-color: #999999; 
+	background-color: #ff6326;
+	color: black;
 }
 #nav-list a span{
-	font-size: 1.8em;
+	font-size: 1.8em;	
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1.5px solid black;
+
 }	
 .navbar-header button.navbar-toggle {
 	clear: both;
-	margin-top: -65px;
+	margin-top:-45px;
 }
 
 
 
 
+							
