@@ -62,6 +62,26 @@ body{
 	clear: both;
 	margin-top:-45px;
 }
+/**End of HEADER **/
+
+/* Menu */
+
+.category-title {
+	background-color: #999999;
+	overflow: hidden;
+	height: 1000px;
+	color: black;
+	position: relative;
+	padding: 0px 15px;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
 
 
 
