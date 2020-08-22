@@ -67,12 +67,12 @@ body{
 /* Menu */
 
 .category-title {
+	padding: 0px 15px;
 	background-color: #999999;
 	overflow: hidden;
 	height: 1000px;
 	color: black;
 	position: relative;
-	padding: 0px 15px;
 }
 a:visited{
 	text-decoration: none;
