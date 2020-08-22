@@ -70,15 +70,10 @@ body{
 	padding: 0px 15px;
 	background-color: #999999;
 	overflow: hidden;
-	height: 1000px;
+	height: 700px;
 	color: black;
 	position: relative;
-}
-a:visited{
-	text-decoration: none;
-}
-a:hover{
-	text-decoration: none;
+	margin-top: 15px;
 }
 
 
